@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Container, Row, Col, Dropdown, Button, ListGroup} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap styles
-import categoriesData from "./categories.json";
+import categoriesData from "./ShoppingList.json";
 
 interface Item{
   id: number;
